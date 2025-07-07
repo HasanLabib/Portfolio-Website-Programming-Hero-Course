@@ -170,3 +170,43 @@ main section {
 .resume-download-cv {
   margin-top: 50px;
 }
+.footer-container {
+  display: flex;
+  padding: 130px 230px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-column {
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+/* .input-area {
+  width: 461px;
+  height: 64px;
+} */
+input[type="text"],
+input[type="email"],
+.form textarea {
+  width: 461px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+.form textarea {
+  height: 180px;
+  /* text-align: center; */
+}
+
+.btn-submit {
+  width: 150px;
+  height: 64px;
+}
